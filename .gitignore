@@ -1,0 +1,18 @@
+# Virtual Environment - Huge folder we don't need to track
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache - Internal files that make Python run faster locally
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and large files (Optional but recommended)
+*.csv
+*.log
